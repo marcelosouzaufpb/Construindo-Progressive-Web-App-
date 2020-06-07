@@ -5,15 +5,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
-import { MenuComponent } from './components/menu/menu.component';
-import { CreateBookComponent } from './components/book/create-book/create-book.component';
+import { HomeComponent } from './shared/home/home.component';
+import { MenuComponent } from './shared/menu/menu.component';
+import { BookComponent } from './components/book/book.component';
+import { BookCreateComponent } from './components/book/book-create/book-create.component';
+
+
+
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    MenuComponent,
-    CreateBookComponent
-  ],
+  declarations: [AppComponent, HomeComponent, MenuComponent, BookComponent, BookCreateComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

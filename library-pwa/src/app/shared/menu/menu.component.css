@@ -1,0 +1,19 @@
+.navbar {
+    border-bottom: 3px solid wheat;
+}
+
+.bg-my {
+    background-color: rebeccapurple;
+}
+
+.navbar ul li a {
+    font-weight: 900;
+}
+
+.active {
+    color: wheat;
+}
+
+.inactive {
+    color: white;
+}
